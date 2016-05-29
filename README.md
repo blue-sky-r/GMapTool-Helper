@@ -87,7 +87,8 @@ Third paramneter is optional, but recommended one:
 
 The extraction process can take a while and allocates full space to extract all parts of image file to working dir.
  After extraction is done the cleanup will remove entire working directory. 
- **Note:** Please make sure you have enough free space in working directory (see configuration).
+ 
+**Note:** Please make sure you have enough free space in the working directory (see configuration).
 
 Hope it helps ...
 
