@@ -100,5 +100,5 @@ Hope it helps ...
 #### History
  version 1.0 - the initial GitHub release in 2016
 
-_keywords:_ garmin, gps, map, extract, image, img, bash
+**keywords**: garmin, gps, map, extract, image, img, bash
 
