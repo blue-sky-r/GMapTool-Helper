@@ -9,7 +9,12 @@ gmt-helper.sh is a helper tool for extracting required maps from single map file
 gmt-helper is simple shell/bash script for command line usage (no GUI) on linux platform (might work on windows
  platform as well with cygwin or windows version of bash - but was not tested at all as I'm linux/osx user)
 
-I have implemented gmt-helper for my personal use on linux wks and I have been using it without any issues since then.
+I have implemented gmt-helper for my personal use on linux wks and I have been using it ~~without any issues since then.~~
+
+##UPDATE
+It has been found that extracts made by [GMapTool](http://www.gmaptool.eu/en/content/linux-version "GMapTool Homepage") have
+broken internal index therefore searching by state / city / address does not work. For this reason I do not recommend using
+neither GMapTool nor gmt-helper to create garmin extracts. The only option is using MapSource. 
 
 ## Implemented modalities
 gmt-helper implements two basic modalities in single script. To simplify usage and minimize script parameters
@@ -95,5 +100,5 @@ Hope it helps ...
 #### History
  version 1.0 - the initial GitHub release in 2016
 
-**keywords:** garmin,gps,map,extract,image,img,bash
+_keywords:_ garmin, gps, map, extract, image, img, bash
 
