@@ -14,7 +14,7 @@ I have implemented gmt-helper for my personal use on linux wks and I have been u
 ##UPDATE
 It has been found that extracts made by [GMapTool](http://www.gmaptool.eu/en/content/linux-version "GMapTool Homepage") have
 broken internal index therefore searching by state / city / address does not work. For this reason I do not recommend using
-neither GMapTool nor gmt-helper to create garmin extracts. The only option is using MapSource. 
+neither GMapTool nor gmt-helper to create garmin extracts. The only option for extracting submaps is using MapSource. 
 
 ## Implemented modalities
 gmt-helper implements two basic modalities in single script. To simplify usage and minimize script parameters
